@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1785C342036943A00036D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785C332036943A00036D74 /* AppDelegate.m */; };
+		C1785C372036943A00036D74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785C362036943A00036D74 /* ViewController.m */; };
+		C1785C3A2036943A00036D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1785C382036943A00036D74 /* Main.storyboard */; };
+		C1785C3C2036943A00036D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1785C3B2036943A00036D74 /* Assets.xcassets */; };
+		C1785C3F2036943A00036D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1785C3D2036943A00036D74 /* LaunchScreen.storyboard */; };
+		C1785C422036943A00036D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785C412036943A00036D74 /* main.m */; };
+		C1785C4C2036943A00036D74 /* FindUniqueIntegerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785C4B2036943A00036D74 /* FindUniqueIntegerTests.m */; };
+		C1785C572036943A00036D74 /* FindUniqueIntegerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785C562036943A00036D74 /* FindUniqueIntegerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1785C482036943A00036D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1785C272036943A00036D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1785C2E2036943A00036D74;
+			remoteInfo = FindUniqueInteger;
+		};
+		C1785C532036943A00036D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1785C272036943A00036D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1785C2E2036943A00036D74;
+			remoteInfo = FindUniqueInteger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1785C2F2036943A00036D74 /* FindUniqueInteger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindUniqueInteger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1785C322036943A00036D74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1785C332036943A00036D74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1785C352036943A00036D74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1785C362036943A00036D74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1785C392036943A00036D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1785C3B2036943A00036D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1785C3E2036943A00036D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1785C402036943A00036D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1785C412036943A00036D74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1785C472036943A00036D74 /* FindUniqueIntegerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindUniqueIntegerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1785C4B2036943A00036D74 /* FindUniqueIntegerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindUniqueIntegerTests.m; sourceTree = "<group>"; };
+		C1785C4D2036943A00036D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1785C522036943A00036D74 /* FindUniqueIntegerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindUniqueIntegerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1785C562036943A00036D74 /* FindUniqueIntegerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindUniqueIntegerUITests.m; sourceTree = "<group>"; };
+		C1785C582036943A00036D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1785C2C2036943A00036D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C442036943A00036D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C4F2036943A00036D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1785C262036943A00036D74 = {
+			isa = PBXGroup;
+			children = (
+				C1785C312036943A00036D74 /* FindUniqueInteger */,
+				C1785C4A2036943A00036D74 /* FindUniqueIntegerTests */,
+				C1785C552036943A00036D74 /* FindUniqueIntegerUITests */,
+				C1785C302036943A00036D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1785C302036943A00036D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1785C2F2036943A00036D74 /* FindUniqueInteger.app */,
+				C1785C472036943A00036D74 /* FindUniqueIntegerTests.xctest */,
+				C1785C522036943A00036D74 /* FindUniqueIntegerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1785C312036943A00036D74 /* FindUniqueInteger */ = {
+			isa = PBXGroup;
+			children = (
+				C1785C322036943A00036D74 /* AppDelegate.h */,
+				C1785C332036943A00036D74 /* AppDelegate.m */,
+				C1785C352036943A00036D74 /* ViewController.h */,
+				C1785C362036943A00036D74 /* ViewController.m */,
+				C1785C382036943A00036D74 /* Main.storyboard */,
+				C1785C3B2036943A00036D74 /* Assets.xcassets */,
+				C1785C3D2036943A00036D74 /* LaunchScreen.storyboard */,
+				C1785C402036943A00036D74 /* Info.plist */,
+				C1785C412036943A00036D74 /* main.m */,
+			);
+			path = FindUniqueInteger;
+			sourceTree = "<group>";
+		};
+		C1785C4A2036943A00036D74 /* FindUniqueIntegerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1785C4B2036943A00036D74 /* FindUniqueIntegerTests.m */,
+				C1785C4D2036943A00036D74 /* Info.plist */,
+			);
+			path = FindUniqueIntegerTests;
+			sourceTree = "<group>";
+		};
+		C1785C552036943A00036D74 /* FindUniqueIntegerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1785C562036943A00036D74 /* FindUniqueIntegerUITests.m */,
+				C1785C582036943A00036D74 /* Info.plist */,
+			);
+			path = FindUniqueIntegerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1785C2E2036943A00036D74 /* FindUniqueInteger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1785C5B2036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueInteger" */;
+			buildPhases = (
+				C1785C2B2036943A00036D74 /* Sources */,
+				C1785C2C2036943A00036D74 /* Frameworks */,
+				C1785C2D2036943A00036D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindUniqueInteger;
+			productName = FindUniqueInteger;
+			productReference = C1785C2F2036943A00036D74 /* FindUniqueInteger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1785C462036943A00036D74 /* FindUniqueIntegerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1785C5E2036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueIntegerTests" */;
+			buildPhases = (
+				C1785C432036943A00036D74 /* Sources */,
+				C1785C442036943A00036D74 /* Frameworks */,
+				C1785C452036943A00036D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1785C492036943A00036D74 /* PBXTargetDependency */,
+			);
+			name = FindUniqueIntegerTests;
+			productName = FindUniqueIntegerTests;
+			productReference = C1785C472036943A00036D74 /* FindUniqueIntegerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1785C512036943A00036D74 /* FindUniqueIntegerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1785C612036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueIntegerUITests" */;
+			buildPhases = (
+				C1785C4E2036943A00036D74 /* Sources */,
+				C1785C4F2036943A00036D74 /* Frameworks */,
+				C1785C502036943A00036D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1785C542036943A00036D74 /* PBXTargetDependency */,
+			);
+			name = FindUniqueIntegerUITests;
+			productName = FindUniqueIntegerUITests;
+			productReference = C1785C522036943A00036D74 /* FindUniqueIntegerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1785C272036943A00036D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PEETLA;
+				TargetAttributes = {
+					C1785C2E2036943A00036D74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C1785C462036943A00036D74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1785C2E2036943A00036D74;
+					};
+					C1785C512036943A00036D74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1785C2E2036943A00036D74;
+					};
+				};
+			};
+			buildConfigurationList = C1785C2A2036943A00036D74 /* Build configuration list for PBXProject "FindUniqueInteger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1785C262036943A00036D74;
+			productRefGroup = C1785C302036943A00036D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1785C2E2036943A00036D74 /* FindUniqueInteger */,
+				C1785C462036943A00036D74 /* FindUniqueIntegerTests */,
+				C1785C512036943A00036D74 /* FindUniqueIntegerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1785C2D2036943A00036D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1785C3F2036943A00036D74 /* LaunchScreen.storyboard in Resources */,
+				C1785C3C2036943A00036D74 /* Assets.xcassets in Resources */,
+				C1785C3A2036943A00036D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C452036943A00036D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C502036943A00036D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1785C2B2036943A00036D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1785C372036943A00036D74 /* ViewController.m in Sources */,
+				C1785C422036943A00036D74 /* main.m in Sources */,
+				C1785C342036943A00036D74 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C432036943A00036D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1785C4C2036943A00036D74 /* FindUniqueIntegerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1785C4E2036943A00036D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1785C572036943A00036D74 /* FindUniqueIntegerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1785C492036943A00036D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1785C2E2036943A00036D74 /* FindUniqueInteger */;
+			targetProxy = C1785C482036943A00036D74 /* PBXContainerItemProxy */;
+		};
+		C1785C542036943A00036D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1785C2E2036943A00036D74 /* FindUniqueInteger */;
+			targetProxy = C1785C532036943A00036D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1785C382036943A00036D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1785C392036943A00036D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1785C3D2036943A00036D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1785C3E2036943A00036D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1785C592036943A00036D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1785C5A2036943A00036D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1785C5C2036943A00036D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueInteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueInteger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1785C5D2036943A00036D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueInteger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueInteger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1785C5F2036943A00036D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueIntegerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueIntegerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindUniqueInteger.app/FindUniqueInteger";
+			};
+			name = Debug;
+		};
+		C1785C602036943A00036D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueIntegerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueIntegerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindUniqueInteger.app/FindUniqueInteger";
+			};
+			name = Release;
+		};
+		C1785C622036943A00036D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueIntegerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueIntegerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindUniqueInteger;
+			};
+			name = Debug;
+		};
+		C1785C632036943A00036D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 345LLH35Y9;
+				INFOPLIST_FILE = FindUniqueIntegerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.pv.FindUniqueIntegerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindUniqueInteger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1785C2A2036943A00036D74 /* Build configuration list for PBXProject "FindUniqueInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1785C592036943A00036D74 /* Debug */,
+				C1785C5A2036943A00036D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1785C5B2036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1785C5C2036943A00036D74 /* Debug */,
+				C1785C5D2036943A00036D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1785C5E2036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueIntegerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1785C5F2036943A00036D74 /* Debug */,
+				C1785C602036943A00036D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1785C612036943A00036D74 /* Build configuration list for PBXNativeTarget "FindUniqueIntegerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1785C622036943A00036D74 /* Debug */,
+				C1785C632036943A00036D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1785C272036943A00036D74 /* Project object */;
+}
